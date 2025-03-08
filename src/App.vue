@@ -6,7 +6,6 @@
           <swiper
             :slides-per-view="1"
             :space-between="30"
-            :navigation="true"
             class="word-swiper"
           >
             <swiper-slide v-for="word in item.words" :key="word.word" class="word-card">
@@ -27,9 +26,7 @@
   <script setup>
   import { ref, onMounted } from 'vue'
   import { Swiper, SwiperSlide } from 'swiper/vue'
-  import { Navigation } from 'swiper/modules'
   import 'swiper/css'
-  import 'swiper/css/navigation'
   import alphabetData from './assets/alphabet-data.json'
   </script>
   
