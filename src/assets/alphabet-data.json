@@ -85,13 +85,8 @@
         "words": [
           {
             "word": "Egg(달걀)",
-            "spelling": ["E(이)", "g(ㄱ)", "g(ㄱ)"],
+            "spelling": ["E(에)", "g(ㄱ)", "g(ㄱ)"],
             "pronunciation": "에그"
-          },
-          {
-            "word": "Eye(눈)",
-            "spelling": ["E(이)", "y(와이)", "e(이)"],
-            "pronunciation": "아이"
           },
           {
             "word": "Ear(귀)",
