@@ -1,0 +1,524 @@
+{
+    "alphabet": [
+      {
+        "letter": "A",
+        "words": [
+          {
+            "word": "Apple",
+            "spelling": ["A(에이)", "p(ㅍ)", "p(ㅍ)", "l(ㄹ)", "e(이)"],
+            "pronunciation": "애플"
+          },
+          {
+            "word": "Ant",
+            "spelling": ["A(에이)", "n(ㄴ)", "t(ㅌ)"],
+            "pronunciation": "앤트"
+          },
+          {
+            "word": "Air",
+            "spelling": ["A(에이)", "i(아이)", "r(ㄹ)"],
+            "pronunciation": "에어"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "words": [
+          {
+            "word": "Ball",
+            "spelling": ["B(비)", "a(애)", "l(ㄹ)", "l(ㄹ)"],
+            "pronunciation": "볼"
+          },
+          {
+            "word": "Book",
+            "spelling": ["B(비)", "o(오)", "o(오)", "k(ㅋ)"],
+            "pronunciation": "북"
+          },
+          {
+            "word": "Bird",
+            "spelling": ["B(비)", "i(아이)", "r(ㄹ)", "d(ㄷ)"],
+            "pronunciation": "버드"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "words": [
+          {
+            "word": "Cat",
+            "spelling": ["C(씨)", "a(애)", "t(ㅌ)"],
+            "pronunciation": "캣"
+          },
+          {
+            "word": "Car",
+            "spelling": ["C(씨)", "a(아)", "r(ㄹ)"],
+            "pronunciation": "카"
+          },
+          {
+            "word": "Cup",
+            "spelling": ["C(씨)", "u(유)", "p(ㅍ)"],
+            "pronunciation": "컵"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "words": [
+          {
+            "word": "Dog",
+            "spelling": ["D(디)", "o(오)", "g(ㄱ)"],
+            "pronunciation": "독"
+          },
+          {
+            "word": "Door",
+            "spelling": ["D(디)", "o(오)", "o(오)", "r(ㄹ)"],
+            "pronunciation": "도어"
+          },
+          {
+            "word": "Duck",
+            "spelling": ["D(디)", "u(어)", "c(ㅋ)", "k(ㅋ)"],
+            "pronunciation": "덕"
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "words": [
+          {
+            "word": "Egg",
+            "spelling": ["E(이)", "g(ㄱ)", "g(ㄱ)"],
+            "pronunciation": "에그"
+          },
+          {
+            "word": "Eye",
+            "spelling": ["E(이)", "y(와이)", "e(이)"],
+            "pronunciation": "아이"
+          },
+          {
+            "word": "Ear",
+            "spelling": ["E(이)", "a(에이)", "r(ㄹ)"],
+            "pronunciation": "이어"
+          }
+        ]
+      },
+      {
+        "letter": "F",
+        "words": [
+          {
+            "word": "Fish",
+            "spelling": ["F(에프)", "i(아이)", "s(ㅅ)", "h(ㅎ)"],
+            "pronunciation": "피시"
+          },
+          {
+            "word": "Fan",
+            "spelling": ["F(에프)", "a(애)", "n(ㄴ)"],
+            "pronunciation": "팬"
+          },
+          {
+            "word": "Fox",
+            "spelling": ["F(에프)", "o(오)", "x(엑스)"],
+            "pronunciation": "폭스"
+          }
+        ]
+      },
+      {
+        "letter": "G",
+        "words": [
+          {
+            "word": "Girl",
+            "spelling": ["G(지)", "i(아이)", "r(ㄹ)", "l(ㄹ)"],
+            "pronunciation": "걸"
+          },
+          {
+            "word": "Game",
+            "spelling": ["G(지)", "a(에이)", "m(ㅁ)", "e(이)"],
+            "pronunciation": "게임"
+          },
+          {
+            "word": "Gate",
+            "spelling": ["G(지)", "a(에이)", "t(ㅌ)", "e(이)"],
+            "pronunciation": "게이트"
+          }
+        ]
+      },
+      {
+        "letter": "H",
+        "words": [
+          {
+            "word": "Hat",
+            "spelling": ["H(에이치)", "a(애)", "t(ㅌ)"],
+            "pronunciation": "햇"
+          },
+          {
+            "word": "Hand",
+            "spelling": ["H(에이치)", "a(애)", "n(ㄴ)", "d(ㄷ)"],
+            "pronunciation": "핸드"
+          },
+          {
+            "word": "Home",
+            "spelling": ["H(에이치)", "o(오)", "m(ㅁ)", "e(이)"],
+            "pronunciation": "홈"
+          }
+        ]
+      },
+      {
+        "letter": "I",
+        "words": [
+          {
+            "word": "Ice",
+            "spelling": ["I(아이)", "c(ㅅ)", "e(이)"],
+            "pronunciation": "아이스"
+          },
+          {
+            "word": "Ink",
+            "spelling": ["I(아이)", "n(ㄴ)", "k(ㅋ)"],
+            "pronunciation": "잉크"
+          },
+          {
+            "word": "Iron",
+            "spelling": ["I(아이)", "r(ㄹ)", "o(오)", "n(ㄴ)"],
+            "pronunciation": "아이언"
+          }
+        ]
+      },
+      {
+        "letter": "J",
+        "words": [
+          {
+            "word": "Jam",
+            "spelling": ["J(제이)", "a(애)", "m(ㅁ)"],
+            "pronunciation": "잼"
+          },
+          {
+            "word": "Jet",
+            "spelling": ["J(제이)", "e(이)", "t(ㅌ)"],
+            "pronunciation": "제트"
+          },
+          {
+            "word": "Jump",
+            "spelling": ["J(제이)", "u(어)", "m(ㅁ)", "p(ㅍ)"],
+            "pronunciation": "점프"
+          }
+        ]
+      },
+      {
+        "letter": "K",
+        "words": [
+          {
+            "word": "Key",
+            "spelling": ["K(케이)", "e(이)", "y(와이)"],
+            "pronunciation": "키"
+          },
+          {
+            "word": "King",
+            "spelling": ["K(케이)", "i(아이)", "n(ㄴ)", "g(ㄱ)"],
+            "pronunciation": "킹"
+          },
+          {
+            "word": "Kid",
+            "spelling": ["K(케이)", "i(아이)", "d(ㄷ)"],
+            "pronunciation": "키드"
+          }
+        ]
+      },
+      {
+        "letter": "L",
+        "words": [
+          {
+            "word": "Lion",
+            "spelling": ["L(엘)", "i(아이)", "o(오)", "n(ㄴ)"],
+            "pronunciation": "라이언"
+          },
+          {
+            "word": "Lamp",
+            "spelling": ["L(엘)", "a(애)", "m(ㅁ)", "p(ㅍ)"],
+            "pronunciation": "램프"
+          },
+          {
+            "word": "Leaf",
+            "spelling": ["L(엘)", "e(이)", "a(애)", "f(ㅍ)"],
+            "pronunciation": "리프"
+          }
+        ]
+      },
+      {
+        "letter": "M",
+        "words": [
+          {
+            "word": "Moon",
+            "spelling": ["M(엠)", "o(오)", "o(오)", "n(ㄴ)"],
+            "pronunciation": "문"
+          },
+          {
+            "word": "Milk",
+            "spelling": ["M(엠)", "i(아이)", "l(ㄹ)", "k(ㅋ)"],
+            "pronunciation": "밀크"
+          },
+          {
+            "word": "Map",
+            "spelling": ["M(엠)", "a(애)", "p(ㅍ)"],
+            "pronunciation": "맵"
+          }
+        ]
+      },
+      {
+        "letter": "N",
+        "words": [
+          {
+            "word": "Nose",
+            "spelling": ["N(엔)", "o(오)", "s(ㅅ)", "e(이)"],
+            "pronunciation": "노즈"
+          },
+          {
+            "word": "Nut",
+            "spelling": ["N(엔)", "u(어)", "t(ㅌ)"],
+            "pronunciation": "넛"
+          },
+          {
+            "word": "Net",
+            "spelling": ["N(엔)", "e(이)", "t(ㅌ)"],
+            "pronunciation": "넷"
+          }
+        ]
+      },
+      {
+        "letter": "O",
+        "words": [
+          {
+            "word": "One",
+            "spelling": ["O(오)", "n(ㄴ)", "e(이)"],
+            "pronunciation": "원"
+          },
+          {
+            "word": "Oil",
+            "spelling": ["O(오)", "i(아이)", "l(ㄹ)"],
+            "pronunciation": "오일"
+          },
+          {
+            "word": "Owl",
+            "spelling": ["O(오)", "w(더블유)", "l(ㄹ)"],
+            "pronunciation": "아울"
+          }
+        ]
+      },
+      {
+        "letter": "P",
+        "words": [
+          {
+            "word": "Pen",
+            "spelling": ["P(피)", "e(이)", "n(ㄴ)"],
+            "pronunciation": "펜"
+          },
+          {
+            "word": "Pin",
+            "spelling": ["P(피)", "i(아이)", "n(ㄴ)"],
+            "pronunciation": "핀"
+          },
+          {
+            "word": "Pan",
+            "spelling": ["P(피)", "a(애)", "n(ㄴ)"],
+            "pronunciation": "팬"
+          }
+        ]
+      },
+      {
+        "letter": "Q",
+        "words": [
+          {
+            "word": "Queen",
+            "spelling": ["Q(큐)", "u(유)", "e(이)", "e(이)", "n(ㄴ)"],
+            "pronunciation": "퀸"
+          },
+          {
+            "word": "Quiz",
+            "spelling": ["Q(큐)", "u(유)", "i(아이)", "z(즈)"],
+            "pronunciation": "퀴즈"
+          },
+          {
+            "word": "Quick",
+            "spelling": ["Q(큐)", "u(유)", "i(아이)", "c(ㅋ)", "k(ㅋ)"],
+            "pronunciation": "퀵"
+          }
+        ]
+      },
+      {
+        "letter": "R",
+        "words": [
+          {
+            "word": "Red",
+            "spelling": ["R(알)", "e(이)", "d(ㄷ)"],
+            "pronunciation": "레드"
+          },
+          {
+            "word": "Rain",
+            "spelling": ["R(알)", "a(에이)", "i(아이)", "n(ㄴ)"],
+            "pronunciation": "레인"
+          },
+          {
+            "word": "Ring",
+            "spelling": ["R(알)", "i(아이)", "n(ㄴ)", "g(ㄱ)"],
+            "pronunciation": "링"
+          }
+        ]
+      },
+      {
+        "letter": "S",
+        "words": [
+          {
+            "word": "Sun",
+            "spelling": ["S(에스)", "u(어)", "n(ㄴ)"],
+            "pronunciation": "선"
+          },
+          {
+            "word": "Star",
+            "spelling": ["S(에스)", "t(ㅌ)", "a(아)", "r(ㄹ)"],
+            "pronunciation": "스타"
+          },
+          {
+            "word": "Sea",
+            "spelling": ["S(에스)", "e(이)", "a(에이)"],
+            "pronunciation": "시"
+          }
+        ]
+      },
+      {
+        "letter": "T",
+        "words": [
+          {
+            "word": "Tree",
+            "spelling": ["T(티)", "r(ㄹ)", "e(이)", "e(이)"],
+            "pronunciation": "트리"
+          },
+          {
+            "word": "Time",
+            "spelling": ["T(티)", "i(아이)", "m(ㅁ)", "e(이)"],
+            "pronunciation": "타임"
+          },
+          {
+            "word": "Tea",
+            "spelling": ["T(티)", "e(이)", "a(에이)"],
+            "pronunciation": "티"
+          }
+        ]
+      },
+      {
+        "letter": "U",
+        "words": [
+          {
+            "word": "Up",
+            "spelling": ["U(유)", "p(ㅍ)"],
+            "pronunciation": "업"
+          },
+          {
+            "word": "Use",
+            "spelling": ["U(유)", "s(ㅅ)", "e(이)"],
+            "pronunciation": "유즈"
+          },
+          {
+            "word": "Unit",
+            "spelling": ["U(유)", "n(ㄴ)", "i(아이)", "t(ㅌ)"],
+            "pronunciation": "유닛"
+          }
+        ]
+      },
+      {
+        "letter": "V",
+        "words": [
+          {
+            "word": "Van",
+            "spelling": ["V(브이)", "a(애)", "n(ㄴ)"],
+            "pronunciation": "밴"
+          },
+          {
+            "word": "Vest",
+            "spelling": ["V(브이)", "e(이)", "s(ㅅ)", "t(ㅌ)"],
+            "pronunciation": "베스트"
+          },
+          {
+            "word": "Voice",
+            "spelling": ["V(브이)", "o(오)", "i(아이)", "c(ㅅ)", "e(이)"],
+            "pronunciation": "보이스"
+          }
+        ]
+      },
+      {
+        "letter": "W",
+        "words": [
+          {
+            "word": "Web",
+            "spelling": ["W(더블유)", "e(이)", "b(ㅂ)"],
+            "pronunciation": "웹"
+          },
+          {
+            "word": "Wind",
+            "spelling": ["W(더블유)", "i(아이)", "n(ㄴ)", "d(ㄷ)"],
+            "pronunciation": "윈드"
+          },
+          {
+            "word": "Wall",
+            "spelling": ["W(더블유)", "a(애)", "l(ㄹ)", "l(ㄹ)"],
+            "pronunciation": "월"
+          }
+        ]
+      },
+      {
+        "letter": "X",
+        "words": [
+          {
+            "word": "Box",
+            "spelling": ["B(비)", "o(오)", "x(엑스)"],
+            "pronunciation": "박스"
+          },
+          {
+            "word": "Mix",
+            "spelling": ["M(엠)", "i(아이)", "x(엑스)"],
+            "pronunciation": "믹스"
+          },
+          {
+            "word": "Six",
+            "spelling": ["S(에스)", "i(아이)", "x(엑스)"],
+            "pronunciation": "식스"
+          }
+        ]
+      },
+      {
+        "letter": "Y",
+        "words": [
+          {
+            "word": "Yes",
+            "spelling": ["Y(와이)", "e(이)", "s(ㅅ)"],
+            "pronunciation": "예스"
+          },
+          {
+            "word": "Year",
+            "spelling": ["Y(와이)", "e(이)", "a(에이)", "r(ㄹ)"],
+            "pronunciation": "이어"
+          },
+          {
+            "word": "You",
+            "spelling": ["Y(와이)", "o(오)", "u(유)"],
+            "pronunciation": "유"
+          }
+        ]
+      },
+      {
+        "letter": "Z",
+        "words": [
+          {
+            "word": "Zoo",
+            "spelling": ["Z(지)", "o(오)", "o(오)"],
+            "pronunciation": "주"
+          },
+          {
+            "word": "Zero",
+            "spelling": ["Z(지)", "e(이)", "r(ㄹ)", "o(오)"],
+            "pronunciation": "제로"
+          },
+          {
+            "word": "Zone",
+            "spelling": ["Z(지)", "o(오)", "n(ㄴ)", "e(이)"],
+            "pronunciation": "존"
+          }
+        ]
+      }
+    ]
+  }
