@@ -1,7 +1,7 @@
 {
     "alphabet": [
       {
-        "letter": "A",
+        "letter": "A(에이)",
         "words": [
           {
             "word": "Apple",
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "letter": "B",
+        "letter": "B(비)",
         "words": [
           {
             "word": "Ball",
@@ -41,7 +41,7 @@
         ]
       },
       {
-        "letter": "C",
+        "letter": "C(씨)",
         "words": [
           {
             "word": "Cat",
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "letter": "D",
+        "letter": "D(디)",
         "words": [
           {
             "word": "Dog",
@@ -81,7 +81,7 @@
         ]
       },
       {
-        "letter": "E",
+        "letter": "E(이)",
         "words": [
           {
             "word": "Egg",
@@ -101,7 +101,7 @@
         ]
       },
       {
-        "letter": "F",
+        "letter": "F(에프)",
         "words": [
           {
             "word": "Fish",
@@ -121,7 +121,7 @@
         ]
       },
       {
-        "letter": "G",
+        "letter": "G(지)",
         "words": [
           {
             "word": "Girl",
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "letter": "H",
+        "letter": "H(에이치)",
         "words": [
           {
             "word": "Hat",
@@ -161,7 +161,7 @@
         ]
       },
       {
-        "letter": "I",
+        "letter": "I(아이)",
         "words": [
           {
             "word": "Ice",
@@ -181,7 +181,7 @@
         ]
       },
       {
-        "letter": "J",
+        "letter": "J(제이)",
         "words": [
           {
             "word": "Jam",
@@ -201,7 +201,7 @@
         ]
       },
       {
-        "letter": "K",
+        "letter": "K(케이)",
         "words": [
           {
             "word": "Key",
@@ -221,7 +221,7 @@
         ]
       },
       {
-        "letter": "L",
+        "letter": "L(엘)",
         "words": [
           {
             "word": "Lion",
@@ -241,7 +241,7 @@
         ]
       },
       {
-        "letter": "M",
+        "letter": "M(엠)",
         "words": [
           {
             "word": "Moon",
@@ -261,7 +261,7 @@
         ]
       },
       {
-        "letter": "N",
+        "letter": "N(엔)",
         "words": [
           {
             "word": "Nose",
@@ -281,7 +281,7 @@
         ]
       },
       {
-        "letter": "O",
+        "letter": "O(오)",
         "words": [
           {
             "word": "One",
@@ -301,7 +301,7 @@
         ]
       },
       {
-        "letter": "P",
+        "letter": "P(피)",
         "words": [
           {
             "word": "Pen",
@@ -321,7 +321,7 @@
         ]
       },
       {
-        "letter": "Q",
+        "letter": "Q(큐)",
         "words": [
           {
             "word": "Queen",
@@ -341,7 +341,7 @@
         ]
       },
       {
-        "letter": "R",
+        "letter": "R(알)",
         "words": [
           {
             "word": "Red",
@@ -361,7 +361,7 @@
         ]
       },
       {
-        "letter": "S",
+        "letter": "S(에스)",
         "words": [
           {
             "word": "Sun",
@@ -381,7 +381,7 @@
         ]
       },
       {
-        "letter": "T",
+        "letter": "T(티)",
         "words": [
           {
             "word": "Tree",
@@ -401,7 +401,7 @@
         ]
       },
       {
-        "letter": "U",
+        "letter": "U(유)",
         "words": [
           {
             "word": "Up",
@@ -421,7 +421,7 @@
         ]
       },
       {
-        "letter": "V",
+        "letter": "V(브이)",
         "words": [
           {
             "word": "Van",
@@ -441,7 +441,7 @@
         ]
       },
       {
-        "letter": "W",
+        "letter": "W(더블유)",
         "words": [
           {
             "word": "Web",
@@ -461,7 +461,7 @@
         ]
       },
       {
-        "letter": "X",
+        "letter": "X(엑스)",
         "words": [
           {
             "word": "Box",
@@ -481,7 +481,7 @@
         ]
       },
       {
-        "letter": "Y",
+        "letter": "Y(와이)",
         "words": [
           {
             "word": "Yes",
@@ -501,7 +501,7 @@
         ]
       },
       {
-        "letter": "Z",
+        "letter": "Z(지)",
         "words": [
           {
             "word": "Zoo",
