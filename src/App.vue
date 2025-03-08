@@ -1,11 +1,13 @@
 <template>
     <div class="container">
-      <div class="alphabet-list">
+      <div class="alphabet-list" ref="alphabetListRef" @scroll="handleScroll">
         <div v-for="item in alphabetData.alphabet" :key="item.letter" class="letter-section">
           <h2>{{ item.letter }}</h2>
           <swiper
             :slides-per-view="1"
             :space-between="30"
+            :navigation="true"
+            :modules="[navigation]"
             class="word-swiper"
           >
             <swiper-slide v-for="word in item.words" :key="word.word" class="word-card">
@@ -26,8 +28,59 @@
   <script setup>
   import { ref, onMounted } from 'vue'
   import { Swiper, SwiperSlide } from 'swiper/vue'
+  import { Navigation } from 'swiper/modules'
   import 'swiper/css'
+  import 'swiper/css/navigation'
   import alphabetData from './assets/alphabet-data.json'
+  
+  const navigation = Navigation
+  const alphabetListRef = ref(null)
+  let scrollTimeout = null
+  
+  // 스크롤 위치 저장 함수
+  const handleScroll = () => {
+    if (scrollTimeout) {
+      clearTimeout(scrollTimeout)
+    }
+    
+    scrollTimeout = setTimeout(() => {
+      const sections = alphabetListRef.value.querySelectorAll('.letter-section')
+      const scrollPosition = alphabetListRef.value.scrollTop
+      const windowHeight = window.innerHeight
+  
+      // 현재 보이는 섹션 찾기
+      let currentSection = null
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop
+        const sectionBottom = sectionTop + section.offsetHeight
+        
+        if (scrollPosition >= sectionTop - windowHeight/2 && 
+            scrollPosition < sectionBottom - windowHeight/2) {
+          currentSection = section
+        }
+      })
+  
+      if (currentSection) {
+        const letter = currentSection.querySelector('h2').textContent
+        localStorage.setItem('lastLetter', letter)
+      }
+    }, 100)
+  }
+  
+  onMounted(() => {
+    // 마지막으로 본 letter 위치로 스크롤
+    const lastLetter = localStorage.getItem('lastLetter')
+    if (lastLetter) {
+      setTimeout(() => {
+        const sections = alphabetListRef.value.querySelectorAll('.letter-section')
+        sections.forEach((section) => {
+          if (section.querySelector('h2').textContent === lastLetter) {
+            section.scrollIntoView({ behavior: 'smooth' })
+          }
+        })
+      }, 100)
+    }
+  })
   </script>
   
   <style scoped>
@@ -56,6 +109,7 @@
     width: 100%;
     flex: 1;
     min-height: 0;
+    position: relative;
   }
   
   .word-card {
@@ -104,6 +158,37 @@
     text-align: center;
   }
   
+  /* Swiper 네비게이션 버튼 스타일 커스터마이징 */
+  :deep(.swiper-button-next),
+  :deep(.swiper-button-prev) {
+    color: #2c3e50;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  :deep(.swiper-button-next:after),
+  :deep(.swiper-button-prev:after) {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  :deep(.swiper-button-next:hover),
+  :deep(.swiper-button-prev:hover) {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+  }
+  
+  :deep(.swiper-button-disabled) {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+  
   @media (max-width: 480px) {
     .container {
       padding: 5px;
@@ -131,6 +216,18 @@
   
     .pronunciation {
       font-size: 1.4rem;
+    }
+  
+    :deep(.swiper-button-next),
+    :deep(.swiper-button-prev) {
+      padding: 20px;
+      width: 20px;
+      height: 20px;
+    }
+  
+    :deep(.swiper-button-next:after),
+    :deep(.swiper-button-prev:after) {
+      font-size: 22px;
     }
   }
   </style>
