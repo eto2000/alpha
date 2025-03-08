@@ -89,6 +89,7 @@
     margin: 0 auto;
     padding: 10px;
     height: 100vh;
+    overflow: hidden;
   }
   
   .alphabet-list {
@@ -103,13 +104,14 @@
     flex-direction: column;
     padding: 20px 10px;
     scroll-snap-align: start;
+    box-sizing: border-box;
   }
   
   .word-swiper {
     width: 100%;
-    flex: 1;
-    min-height: 0;
+    height: calc(100vh - 100px);
     position: relative;
+    margin-top: 20px;
   }
   
   .word-card {
@@ -121,6 +123,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-sizing: border-box;
   }
   
   .spelling {
