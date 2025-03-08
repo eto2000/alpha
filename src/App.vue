@@ -126,15 +126,21 @@
   .spelling {
     margin: 20px 0;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
   }
   
   .spelling span {
-    margin-right: 8px;
+    margin-right: 0;
     color: #666;
     font-size: 1.4rem;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    text-align: center;
   }
   
   .pronunciation {
@@ -212,6 +218,8 @@
   
     .spelling span {
       font-size: 1.2rem;
+      min-width: 100px;
+      padding: 4px 8px;
     }
   
     .pronunciation {
