@@ -85,7 +85,7 @@
   
   <style scoped>
   .container {
-    max-width: 100%;
+    max-width: 768px;
     margin: 0 auto;
     padding: 10px;
     height: 100vh;
