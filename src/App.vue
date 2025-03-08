@@ -35,83 +35,102 @@
     max-width: 100%;
     margin: 0 auto;
     padding: 10px;
+    height: 100vh;
   }
   
   .alphabet-list {
     height: 100vh;
     overflow-y: auto;
+    scroll-snap-type: y mandatory;
   }
   
   .letter-section {
-    margin-bottom: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    scroll-snap-align: start;
   }
   
   .word-swiper {
     width: 100%;
-    height: 150px;
+    flex: 1;
+    min-height: 0;
   }
   
   .word-card {
-    padding: 15px;
+    height: 100%;
+    padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 12px;
     background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   .spelling {
-    margin: 10px 0;
+    margin: 20px 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 10px;
+    justify-content: center;
   }
   
   .spelling span {
-    margin-right: 5px;
+    margin-right: 8px;
     color: #666;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
   }
   
   .pronunciation {
     color: #2c3e50;
     font-weight: bold;
-    font-size: 0.95rem;
+    font-size: 1.6rem;
+    text-align: center;
   }
   
   h2 {
     color: #333;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
   }
   
   h3 {
     color: #2c3e50;
-    margin: 0 0 10px 0;
-    font-size: 1.2rem;
+    margin: 0 0 15px 0;
+    font-size: 2rem;
+    text-align: center;
   }
   
   @media (max-width: 480px) {
     .container {
-      padding: 8px;
+      padding: 5px;
+    }
+  
+    .letter-section {
+      padding: 15px 5px;
     }
   
     .word-card {
-      padding: 12px;
+      padding: 15px;
     }
   
     h2 {
-      font-size: 1.3rem;
+      font-size: 2.2rem;
     }
   
     h3 {
-      font-size: 1.1rem;
+      font-size: 1.8rem;
     }
   
     .spelling span {
-      font-size: 0.85rem;
+      font-size: 1.2rem;
     }
   
     .pronunciation {
-      font-size: 0.9rem;
+      font-size: 1.4rem;
     }
   }
   </style>
